@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Juan Manuel González-Aurioles">
+</head>
+<body>
+    <!-- Header -->
+<header>
+    <h1 id ="indice">El Lector de Libros</h1>
+    <p>Contenido historias desde hace 100 años</p>
+</header>
+    <!-- Barra de Navegación -->
+<nav>
+    <ul>
+        <li><a href="Index.html">Inicio</a></li>
+        <li><a href="Cat%C3%A1logo.html">Catálogo </a></li>
+        <li><a href="B%C3%BAsqueda.html">Búsqueda</a></li>
+        <li><a href="Tiendas.html">Tiendas</a></li>
+        <li><a href="Pedidos.html">Pedidos</a></li>
+    </ul>
+</nav>
+    
+<article>
+    <section>
+        <h1>Inscripción de usuario: </h1>
+        <form action="procesar.php" method="POST">
+            <p>Autor: <input type="text" name="autor"></p>
+            <p>Titulo: <input type="text" name="titulo"></p>
+            <p>ISBN: <input type="text" name="correo"></p>
+
+            <p>Precio</p>
+            <p>entre <input type="text" name="entre" size="5"></p>
+            <p>y <input type="text" name="entre" size="5"></p>
+
+            <p>Género: 
+            <select name="genero">
+                <option>-eliga su género-</option>
+                <option>Ciencia Ficción</option>
+                <option>Romance</option>
+                <option>Terror</option>
+                <option>Infantil</option>
+                <option>Policiaca</option>
+            </select>
+
+
+            <p>Encuadernación: 
+            <input type="radio" name="encuadernacion" value="hombre"> Tapa dura
+            <input type="radio" name="encuadernacion" value="mujer"> Tapa blanda
+            <input type="radio" name="encuadernacion" value="mujer" /checked> Cualquiera
+
+            <input type="submit" value="Buscar"/>
+            </p>    
+        </form>
+    </section>
+</article>
+
+<aside>
+    <p>Más vendidos</p>
+    <ul>
+        <li>El quijote</li>
+        <li>Ulises</li>
+        <li>Arguiñano</li>
+    </ul>
+    
+    <p>Más populares</p>
+    <ul>
+        <li>Charles Dickens</li>
+        <li>Julio Verne</li>
+        <li>Egdar Allan Poe</li>
+        
+    </ul>
+
+</aside>   
+
+<footer>
+    <ul>
+    <li>Granada</li>
+        <ul>
+            <li>Reyes Católicos (555 112233)</li>
+            <li>Avda Dílar</li>
+        </ul>
+        <li>Málaga</li>
+        <ul>
+            <li>Masqués de Larios(555 221133)</li>
+        </ul>
+     </ul>
+    
+    <section>
+        <img src="Imagenes/correo.PNG" />
+        <p>lectordelibros@gemeil.com</p>
+    </section>
+    <section>
+        <img src="Imagenes/twitter.PNG" />
+        <img src="Imagenes/Facebook.PNG" />
+        <img src="Imagenes/p.PNG" />
+        <img src="Imagenes/wireless.PNG" /> 
+    </section>
+    
+    <ul>
+        <li>La empresa</li>
+        <li>Política de envío</li>
+        <li>Preguntas frecuentes</li>
+        <li>Mapa del sitio</li>
+    </ul>
+</footer>
+    
+</body>
+</html>
