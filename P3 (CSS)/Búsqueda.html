@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Juan Manuel González-Aurioles">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="Css.css">
+    <title>Página Búsqueda Libreria</title>
+</head>
+<body>
+<div id="pagina">
+        <!-- Header -->
+    <header>
+        <h1 id ="indice">El Lector de Libros</h1>
+        <p>Contenido historias desde hace 100 años</p>
+    </header>
+        <!-- Barra de Navegación -->
+    <nav>
+        <ul id="barra_nav">
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Cat%C3%A1logo.html">Catálogo </a></li>
+            <li><a href="B%C3%BAsqueda.html">Búsqueda</a></li>
+            <li><a href="Tiendas.html">Tiendas</a></li>
+            <li><a href="Pedidos.html">Pedidos</a></li>
+        </ul>
+    </nav>
+
+    <article>
+       <h2>Inscripción de usuario: </h2>
+            <form action="procesar.php" method="POST">
+                <p>Autor: <input type="text" name="autor"></p>
+                <p>Titulo: <input type="text" name="titulo"></p>
+                <p>ISBN: <input type="text" name="correo"></p>
+
+                <p>Precio
+                entre <input type="text" name="entre" size="5">
+                y <input type="text" name="entre" size="5"></p>
+
+                <p>Género: 
+                <select name="genero">
+                    <option>-eliga su género-</option>
+                    <option>Ciencia Ficción</option>
+                    <option>Romance</option>
+                    <option>Terror</option>
+                    <option>Infantil</option>
+                    <option>Policiaca</option>
+                </select>
+
+
+                <p>Encuadernación: 
+                <input type="radio" name="encuadernacion" value="hombre"> Tapa dura
+                <input type="radio" name="encuadernacion" value="mujer"> Tapa blanda
+                <input type="radio" name="encuadernacion" value="mujer" checked> Cualquiera
+
+                <input type="submit" value="Buscar"/>
+                </p>    
+            </form>
+        
+    </article>
+
+    <aside>
+        <p>Más vendidos</p>
+        <ul>
+            <li>El quijote</li>
+            <li>Ulises</li>
+            <li>Arguiñano</li>
+        </ul>
+
+        <p>Más populares</p>
+        <ul>
+            <li>Charles Dickens</li>
+            <li>Julio Verne</li>
+            <li>Egdar Allan Poe</li>
+
+        </ul>
+
+    </aside>   
+    <!-- Footer -->
+    <footer>
+        <section class="izq">
+        <h3>Granada</h3>
+        <ul>
+        <li><!--<strong>Granada</strong></li>-->
+                <li><p>Reyes Católicos (555 112233)</p></li>
+                <li><p>Avda Dílar</p></li>
+        </ul> 
+            <h3>Málaga</h3>
+        <ul>
+            <!--<li><strong>Málaga</strong></li>-->
+                <li><p>Masqués de Larios(555 221133)</p></li>
+         </ul>
+        </section>
+        <section class="centro">
+                <h3><img src="Imagenes/correo.PNG" alt="Gmail" />
+                lectordelibros@gemeil.com</h3>
+                <img src="Imagenes/twitter.PNG" alt="Twitter"/>
+                <img src="Imagenes/Facebook.PNG" alt="Facebook"/>
+                <img src="Imagenes/p.PNG" alt="P"/>
+                <img src="Imagenes/wireless.PNG" alt="Wifi"/> 
+            
+        </section>
+        <section class="der">
+        <h3>© Libreria</h3>
+        <ul>
+            <li>La empresa</li>
+            <li>Política de envío</li>
+            <li>Preguntas frecuentes</li>
+            <li>Mapa del sitio</li>
+        </ul>
+        </section>
+    </footer>
+</div> 
+</body>
+</html>

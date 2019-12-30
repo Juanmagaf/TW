@@ -1,0 +1,263 @@
+﻿/* Ancho página */ 
+    #pagina {
+        width: 100%;
+        height: 50%;
+        margin: 0 auto;
+    }
+    @font-face {
+      font-family: 'Hanleth';
+      src: url(Hanleth.ttf);
+    }
+    form label{
+        display: block;
+    }
+/*Body*/
+    body{
+        display: flex;
+        text-align: center;
+        /*margin: 0 auto;*/
+    }
+    table th{
+        font-weight: normal;
+        font-size: 100%;
+    }
+
+    table td{
+        font-size: 100%;
+        float: center;
+    }
+    table tr{
+        float: center;
+    }
+    table{
+        width: 100%;
+    }
+    #log{
+        font-size: 70%;
+        
+    }
+    #scroll{
+        width: 100%;
+        height: 700px;
+        overflow: auto;
+    }
+/*Header*/
+    header {
+        background-color: #D8513D;
+        width: 100%;
+        font-size: 250%;
+        color: goldenrod;
+        font-family: 'Hanleth';
+        border-style: solid;
+        border-color: #D8513D;
+    }
+
+/*Navegación*/
+    nav{
+        font-size: 125%;
+        width: 100%;
+        border-style: solid;
+        border-color: coral;
+        border-top-color: #D8513D;
+        background-color: gainsboro;
+    }
+    #barra_nav li a:link{
+        text-decoration: none;
+        color: black;
+    }
+    #barra_nav li a:hover{
+        color:blue; 
+    }
+    #barra_nav li{   
+        text-align: center;
+        list-style-type: none;
+    }
+
+    ul#barra_nav {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    a{
+        text-decoration: none;
+    }
+    span{
+        color: red;
+
+    }
+/* Contenido (Article) */ 
+    article{
+        float: left;
+        text-align: left;
+        font-size: 80%;
+        background-color:coral; 
+        width: 99.5%;
+        border-style: solid;
+        border-color: coral;
+        display: block;
+    }
+/* Contenido (Main) */ 
+    main{
+        float: left;
+        text-align: left;
+        font-size: 125%;
+        width: 75%;
+        display: inline-block;
+        
+        border-color: black;
+        border-style: solid;
+        
+    }
+    #borde_negro{
+        border-color: black;
+        border-style: solid;
+    }
+/* Barra Criterios de busqueda*/
+    ul#barra_inci {
+        display: block;
+        list-style-type: none;
+    }
+    .tabulador{
+        text-indent: 1cm;
+    }
+    
+    .centro{
+        text-align: center;
+    }
+    ul#barra_estado {
+        justify-content: space-around;
+        display: flex;
+        list-style-type: none;
+    }
+/* Clase Fotos */
+    article img {
+        float: left;
+        border-radius: 50%;
+        width: 250px;
+    }
+    ul img {
+        float: left;
+        width: 250px;
+    }
+    main img {
+        float: left;
+        border-radius: 50%;
+        width: 250px;
+    }
+
+    footer img {
+        width: 50px;
+
+    }
+    p {
+        clear: both;
+    }
+
+/* Enlace para boton*/
+    .enlace{
+        background-color: #4CAF50;
+        border-radius: 12px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        text-decoration-line: none;
+        margin: 4px 2px;
+        float: right;
+
+    }
+/* Lateral (aside) */
+    aside {
+        background-color: coral;
+        text-align: left;
+        float: right;
+        width: 24%;
+    }
+    aside ul{
+        list-style-type: none;
+        font-size: 100%;
+        border-style: solid;
+        border-color: coral;
+        padding: 5px;
+        background-color: white;
+    }
+
+    aside h3{
+        background-color: blue;
+        color: white
+    }
+
+/* Footer Flex*/
+    /*
+    footer{
+        display: flex;
+        border-style: dashed;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    footer ul{
+        list-style-type: none;
+    }
+    footer h3{
+        font-weight: normal;
+        padding-left: 40px;
+    }
+    footer .izq{
+        text-align: left;
+    }
+    footer .der{
+        text-align: left;
+    }
+    footer .centro{
+        display: inline-block;
+        text-align: center;
+    }*/
+/* Grid Usuarios */
+.grid-usuarios {
+  display: grid;
+  grid-template-columns: 20% 60% 15%;
+  grid-template-areas:'menu  main right';
+  padding: 10px;
+    width: 100%;
+    height: 700px;
+    overflow: auto;
+}
+#img_perfil{
+    width: 130px;
+    height: 165px;
+}
+#logo{
+    float: right;
+    width: 70px;
+    height: 70px;
+    
+}
+/* Footer Grid */
+    footer{
+        display: grid;
+        border-style: solid;
+        width: 100%;
+        grid-template-columns: 33% 33% 33%;
+        background-color: gainsboro;
+    }
+
+    footer ul{
+        list-style-type: none;
+    }
+    footer h3{
+        font-weight: normal;
+        padding-left: 40px;
+    }
+    footer .izq{
+        text-align: left;
+    }
+    footer .der{
+        text-align: center;
+    }
+    footer .centro{
+        display: inline-block;
+        text-align: center;
+    }

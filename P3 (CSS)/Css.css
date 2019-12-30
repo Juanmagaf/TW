@@ -1,0 +1,116 @@
+﻿/* Ancho página */ 
+
+#pagina {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*Body*/
+body{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+/*Header*/
+header {
+    width: 100%;
+    font-size: 200%;
+    border-style: dashed;
+}
+/*Navegación*/
+nav{
+    font-size: 150%;
+    width: 100%;
+    border-style: dashed;
+}
+
+#barra_nav li{   
+    list-style-type: none;
+    
+}
+
+ul#barra_nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+}
+
+/* Contenido (article) */ 
+article{
+    float: left;
+    text-align: left;
+    font-size: 150%;
+    width: 74%;
+    border-style: dashed;
+    display: inline-block;
+}
+article h4{
+   
+}
+/* Clase Fotos */
+article img {
+    float: left;
+    border-radius: 50%;
+    width: 250px;
+}
+
+footer img {
+    width: 50px;
+}
+p {
+    clear: both;
+}
+/* Enlace para boton*/
+.enlace{
+  background-color: #4CAF50;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+    text-decoration-line: none;
+  margin: 4px 2px;
+}
+/* Lateral (aside) */
+aside {
+    text-align: left;
+    float: right;
+    border-style: dashed;
+    width: 24%;
+}
+aside ul{
+    list-style-type: none;
+    font-size: 125%;
+    border-style: dashed;
+    padding: 5px;
+}
+
+/* Footer*/
+
+footer{
+    display: flex;
+    border-style: dashed;
+    width: 100%;
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style-type: none;
+}
+footer h3{
+    font-weight: normal;
+    padding-left: 40px;
+}
+footer .izq{
+    text-align: left;
+}
+footer .der{
+    text-align: left;
+}
+footer .centro{
+    display: inline-block;
+    text-align: center;
+}
+s
